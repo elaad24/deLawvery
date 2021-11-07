@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navBar {
+  background-color: #4e71ff;
+}
+
+.navbar > div {
+  color: white;
+  font-size: large;
+  text-decoration: underline;
+}
+
+.sidenav {
+  height: 90vh;
+  width: 18% !important;
+  position: relative;
+  width: fit-content;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.orderCard {
+  margin: 0 0.5em;
+  border: 1px solid #c5bfbfa2;
+  border-radius: 12%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+  text-align: start;
+  padding: 2px;
+}
+
+.cardFunctions {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  gap: 2px;
+}
+
+.cardFunctions > button {
+  background: none;
+  border: 0px none white;
+  border-radius: 20%;
+  padding: 4px;
+}
+.cardFunctions > button:hover {
+  background-color: rgb(153, 216, 216);
+}
+.cardFunctions > button:active {
+  border: 1px solid #bbb;
+  padding: 3px;
+}
